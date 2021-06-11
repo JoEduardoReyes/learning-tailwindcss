@@ -1,5 +1,6 @@
+/* Inicia todos los componentes de HTML para resetear los archivos */
 @tailwind base;
-
+/*  */
 @tailwind components;
-
+/* Genera el codigo de utilerias */
 @tailwind utilities;
