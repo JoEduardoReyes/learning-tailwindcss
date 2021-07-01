@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto 1: ¡Es hora de practicar!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="w-100 h-100 py-4 px-4">
+    <section>
+      <h1 class="h1">Colores y botones</h1>
+      <!-- Colores y Dimensiones 
+      ● Crea un botón color azul siguiendo estos consejos, recuerda que las tonalidades predefinidas van del 100 al 900.
+● Crea un botón que se adapte según el tamaño de dispositivo.
+● Cuando sea de tamaño pequeño, este botón debe abarcar el ancho de la pantalla y cuando sea un poco más grande debe tener un tamaño predeterminado.
+    -->
+      <button
+        class="
+          bg-blue-900
+          hover:bg-blue-800
+          text-blue-50
+          hover:text-white
+          py-1
+          px-2
+          rounded
+          mx-4
+          my-2
+          md:py-2 md:px-4 md:text-lg
+          lg:py-4 lg:px-8 lg:text-xl
+          w-full
+          sm:w-1/3
+        "
+      >
+        Hover me
+      </button>
+    </section>
+    <section>
+      <h1 class="h1">Margenes y botones</h1>
+      <div class="flex flex-row"></div>
+      <button
+        class="
+          bg-blue-900
+          hover:bg-blue-800
+          text-blue-50
+          hover:text-white
+          py-1
+          px-2
+          rounded
+          mx-4
+          my-2
+          md:py-2 md:px-4 md:text-lg
+          lg:py-4 lg:px-8 lg:text-xl
+          w-full
+          sm:w-1/4
+        "
+      >
+        Hover me
+      </button>
+      <button
+        class="
+          bg-blue-900
+          hover:bg-blue-800
+          text-blue-50
+          hover:text-white
+          py-1
+          px-2
+          rounded
+          mx-4
+          my-2
+          md:py-2 md:px-4 md:text-lg
+          lg:py-4 lg:px-8 lg:text-xl
+          w-full
+          sm:w-1/4
+        "
+      >
+        Hover me
+      </button>
+      <button
+        class="
+          bg-blue-900
+          hover:bg-blue-800
+          text-blue-50
+          hover:text-white
+          py-1
+          px-2
+          rounded
+          mx-4
+          my-2
+          md:py-2 md:px-4 md:text-lg
+          lg:py-4 lg:px-8 lg:text-xl
+          w-full
+          sm:w-1/4
+        "
+      >
+        Hover me
+      </button>
+    </section>
+    <section>
+      <h1>Pseudo-clases</h1>
+      <!-- Creamos un componente en tailwind -->
+      <div>
+        <button class="btn-blue">Hover me</button>
+      </div>
+    </section>
+    <section>
+      <h1>Extraer componentes usando @apply</h1>
+      <div id="flex flex-row">
+        <p class="alert alert-default">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="alert alert-danger">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="alert alert-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="alert alert-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
